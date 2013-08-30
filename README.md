@@ -1,2 +1,2 @@
-leetcode_solution
+leetcode_solutions
 =================

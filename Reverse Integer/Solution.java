@@ -1,7 +1,5 @@
 public class Solution {
     public int reverse(int x) {
-        // Start typing your Java solution below
-        // DO NOT write main() function
         if (x > 0) {
             int res = 0;
             while (x != 0) {
@@ -11,7 +9,7 @@ public class Solution {
             return res;
         }
         else {
-            x = - x;
+            x = -x;
             int res = 0;
             while (x != 0) {
                 res = res * 10 + x % 10;
